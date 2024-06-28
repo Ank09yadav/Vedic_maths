@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //font-family: "montserrat";
+    
+  }
+  
+html,
+body {
+  height: 100%;
+
+  width: 100%;
+}
+#nav {
+    height: 130px;
+    background-color: rgb(23, 0, 137);
+    width: 100%;
+    font-family: "montserrat";
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+    gap: 50px;
+    position: fixed;
+    justify-content: flex-start;
+    z-index: 999;
+  }
+  #nav img {
+    height: 4.5vw;
+  }
+  #nav h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.15vw;}
+    #main {
+        position: relative;
+        background-color: rgba(52, 79, 130, 0.264);
+      }  
+      #page1 {
+        height: 100%;
+        width: 100%;
+        padding-top: 20vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+      }
+      #page1 h3{
+        font-size: 30px;
+        align-items: left;
+        color: purple;
+        
+        position: relative;
+        padding-top: vh;
+        
+      }
+      
+      #page1 p{
+        text-align: left;
+       margin-top: 1vh;
+       position: relative;
+        margin-right: 150px;
+        margin-left: 80px;
+        padding-bottom: 10px;
+       
+      }
+ #page2{ 
+  height: 100%;
+  width: 100%;
+  padding-top: 2vh;
+  position: relative;
+  display: flex;
+ 
+  justify-content: center;
+  flex-direction: column;
+  
+  z-index: 10;
+ }
+ #page2 h3{
+  font-size: 30px;
+  color: rgba(44, 13, 73, 0.919);
+  text-align: center;
+  position: relative;
+  
+  padding-top: 2vh;
+
+
+ }
+ #page2 h6{
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  color: rgb(47, 24, 47);
+  
+  position: relative;
+  padding-top: vh;
+  
+}
+ #page2 p{
+      padding-top: 2vh;
+      position: relative;
+      text-align: left;
+      margin-top: vh;
+       margin-right: 150px;
+       margin-left: 80px;
+
+ }
+ #page2 .eg1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #page2 .eg2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #page2 .eg4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+
+ #page3{
+  height: 100%;
+  width: 100%;
+  padding-top: 2vh;
+  position: relative;
+  display: flex;
+  
+  justify-content: center;
+  flex-direction: column;
+  
+  z-index: 10;
+
+ }
+ #page3 h3{
+  align-items: start;
+  color: rgba(57, 13, 99, 0.87);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+ }
+ #page3 .eg3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ #page3 p{
+  padding-top: 4vh;
+  text-align: left;
+  margin-top: 5vh;
+   margin-right: 150px;
+   margin-left: 80px;
+   position: relative;
+ }
+ /*
+ #page4{
+  height: 100vh;
+  width: 100%;
+  padding-top: 2vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  z-index: 10;
+
+ }
+ */
+ .like-dislike-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-dislike-container button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #eee;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.like-dislike-container button.active {
+  background-color: #90EE90; /* Green for like */
+}
+
+.like-dislike-container button.active i {
+  color: #008000; /* Darker green for like icon */
+}
+
+#dislike-button.active {
+  background-color: #FFCDD2; /* Red for dislike */
+}
+
+#dislike-button.active i {
+  color: #b30000; /* Darker red for dislike icon */
+}
+
+
+
+ 
+
+ #footer {
+  height: 20vh;
+  width: 100%;
+  background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6.5vw;
+  padding: 0 100px;
+ 
+}
+#footer > img {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  z-index: 0;
+}
+#f1 img {
+  height: 100px;
+}
+#f1,
+#f2,
+#f3,
+#f4 {
+  width: fit-content;
+  position: relative;
+  z-index: 99;
+  /* background-color: red; */
+}
+#f2 h3 {
+  font-size: 1.6vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+#f3 h3 {
+  font-size: 1.6vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+#f4 h4 {
+  font-size: 1vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
